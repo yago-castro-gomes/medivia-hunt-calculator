@@ -27,6 +27,7 @@
 #head {
  display: flex;
  background-color: black;
+ width: 100%;
  padding: 10px;
  color: beige;
  font-family: 'Montserrat', sans-serif;
@@ -41,6 +42,7 @@
     font-family: 'Montserrat', sans-serif;  
     justify-content: center;
     align-items: center;
+    margin-top: 5vh;
 }
 
 #bpgif{
@@ -70,8 +72,10 @@ input {
 
 #priceBp {
     display: inline-flex;
+    justify-content: center;
+    margin-top: 5vh;
+    flex-wrap: wrap;
     border-radius: 5px;
-    padding: 50px;
     
 }
  #bpUh{
@@ -123,6 +127,7 @@ img {
 #characterContent {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 10px 10px 10px 10px;
 }
 .chartitle {
@@ -137,7 +142,7 @@ img {
     flex-direction: column;
     flex-wrap: wrap;
     height: 310px;
-    width: 400px;
+    width: 300px;
     border: 3px solid black ;
     border-radius: 10px;
     margin-right: 5px;
@@ -182,6 +187,7 @@ button:active {
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 5vh;
 }
 
 #loot-container input {
@@ -206,7 +212,7 @@ button:active {
 }
 
 footer {
-    margin-top: 20vh;
+    margin-top: 15vh;
     color: white;
     text-align: center;
     background-color: rgb(0, 0, 0);
