@@ -236,7 +236,7 @@ export default class Calculator extends Component {
         return (
             <>
                 <div>
-                    <ReactModal isOpen={modalOpen}>
+                    <ReactModal isOpen={modalOpen} style={{ content: { width: '600px', height: '500px', margin: 'auto', } }}>
                         <button className='btn-modal' onClick={() => this.setState({
                             modalOpen: false,
                         })}>
